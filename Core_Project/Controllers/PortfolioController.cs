@@ -19,7 +19,6 @@ namespace Core_Project.Controllers
 			var values = portfolioManager.TGetList();
 			return View(values);
 		}
-		//deneme
 		[HttpGet]
 		public IActionResult AddPortfolio()
 		{
