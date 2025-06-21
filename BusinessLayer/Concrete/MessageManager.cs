@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-	public class MessageManager:IMessageService
+	public class MessageManager : IMessageService
 	{
 		IMessageDal _messageDal;
 
@@ -25,15 +25,20 @@ namespace BusinessLayer.Concrete
 
 		public void TDelete(Message t)
 		{
-			throw new NotImplementedException();
+			_messageDal.Delete(t);
 		}
 
 		public Message TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _messageDal.GetByID(id);
 		}
 
 		public List<Message> TGetList()
+		{
+			return _messageDal.GetList();
+		}
+
+		public List<Message> TGetListByFilter()
 		{
 			throw new NotImplementedException();
 		}

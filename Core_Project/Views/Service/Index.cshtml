@@ -7,6 +7,9 @@
 }
 
 
+<div class="card-header border-0">
+    <h3 class="mb-0">Hizmet Listesi Tablosu</h3>
+</div>
 <!-- Light table -->
 <div class="table-responsive">
     <table class="table align-items-center table-flush">
@@ -19,16 +22,22 @@
             </tr>
         </thead>
         <tbody class="list">
+
             @foreach (var item in Model)
             {
                 <tr>
-                    <th>@item.ServiceID</th>
-                    <th class="budget">@item.Title</th>
+                    <th>
+                        @item.ServiceID
+                    </th>
+                    <th class="budget">
+                        @item.Title
+                    </th>
                     <td><a href="/Service/DeleteService/@item.ServiceID" class="btn btn-outline-danger">Sil</a></td>
                     <td><a href="/Service/EditService/@item.ServiceID" class="btn btn-outline-info">Güncelle</a></td>
                 </tr>
             }
         </tbody>
     </table>
+    <br />
     <a href="/Service/AddService/" class="btn btn-primary">Yeni Hizmet Ekle</a>
 </div>
