@@ -33,11 +33,11 @@ Kullanıcının portföyünü sergileyebileceği, yönetim ve kullanıcı işlem
 
 - **🌐 Ana Sayfa**  
   Herkese açık. Portföy, referanslar, iletişim gibi içerikler bulunur.
-![Açıklama](/images/fullpage.jpeg)
+![Ana sayfa](/images/fullpage2.jpeg)
 
 - **🧑‍💼 Admin Paneli**  
   CRUD işlemleri, mesaj yönetimi, kullanıcı rol atamaları, istatistikler ve daha fazlası.
-![Açıklama](/images/panel1.jpeg)
+![Açıklama](/images/panel5.jpeg)
 
 - **✍️ Yazar Paneli**  
   Profil düzenleme, mesajlaşma, şifre değiştirme, dashboard ve istatistik ekranları.
@@ -49,7 +49,7 @@ Kullanıcının portföyünü sergileyebileceği, yönetim ve kullanıcı işlem
 
 - Katmanlı mimari ile temiz ve sürdürülebilir yazılım geliştirme
 - Dependency Injection prensibiyle esnek kod yapısı oluşturma
-- Restful API mantığı ile veri alışverişi sağlama
+- API mantığı ile veri alışverişi sağlama
 - Modern UI tasarımı ve kullanıcı deneyimi (UX)
 - Web güvenliği, doğrulama ve yetkilendirme
 
